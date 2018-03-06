@@ -1,0 +1,93 @@
+body {
+	background-color: hsl(31, 3%, 78%);
+}
+
+.header {
+	text-align: center;
+	padding: 5vh 0;
+	font-family: 'Bowlby One SC', cursive;
+}
+
+.health-bar {
+	border-radius: 15px;
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+	padding: 35px;
+	background-color: hsl(31, 34%, 36%);
+}
+
+.health-bar h2 {
+	text-align: center;
+	padding-bottom: 5px;
+	color: #fff;
+	font-family: 'Mina', sans-serif;
+}
+
+
+.health-bar .health-bar-inner {
+	border-radius: 15px	;
+	background-color: green;
+	padding: 15px 0;
+	height: 60%;
+	text-align: center;
+	transition: 0.2s ease;
+	color: #FFF;
+}
+
+#buttons {
+	text-align: center;
+	padding: 50px;
+}
+
+#buttons div button {
+	margin: 2% 2%;
+	width: 20%;
+	height: 60px;
+	font-size: 1.2em;
+	outline: none;
+}
+
+#buttons div button:hover {
+	border: solid 2px black;
+}
+
+.start {
+	background-color: gold;
+	color: green;
+	border-radius: 15px;
+}
+.attack {
+	background-color: red;
+	color: #fff;
+}
+
+.special {
+	background-color: hsl(52, 64%, 49%);
+	color: #fff;
+
+}
+
+.heal {
+	background-color: blue;
+	color: #fff;
+
+}
+
+.restart {
+	background-color: gray;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
